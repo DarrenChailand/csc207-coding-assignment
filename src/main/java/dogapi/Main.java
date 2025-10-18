@@ -30,7 +30,7 @@ public class Main {
             return subBreeds.size(); // 0 if empty
         } catch (BreedFetcher.BreedNotFoundException e) {
             // If the breed doesn't exist, return 0
-            return -1;
+            return 0;
         }
     }
 
